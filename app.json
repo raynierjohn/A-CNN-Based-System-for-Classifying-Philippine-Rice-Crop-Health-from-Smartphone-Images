@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "RiceDiseaseClassification",
+    "slug": "RiceDiseaseClassification",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/ricelogo.png",
+    "scheme": "ricediseaseclassification",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff",
+        "foregroundImage": "./assets/ricelogo.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.rhyleynexs.RiceDiseaseClassification"
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff",
+          "dark": {
+            "backgroundColor": "#000000"
+          }
+        }
+      ],
+      "react-native-fast-tflite"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "e7590b08-373e-4e17-b44d-6a0af92fb7aa"
+      }
+    }
+  }
+}

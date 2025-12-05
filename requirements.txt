@@ -1,0 +1,7 @@
+flask
+flask-cors
+gunicorn
+pillow
+numpy
+tensorflow-cpu
+matplotlib
