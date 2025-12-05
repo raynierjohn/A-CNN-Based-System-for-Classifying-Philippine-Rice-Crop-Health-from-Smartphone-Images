@@ -4,7 +4,7 @@
     "slug": "RiceDiseaseClassification",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/ricelogo.png",
+    "icon": "./assets/images/ricelogo.png",
     "scheme": "ricediseaseclassification",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
